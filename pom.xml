@@ -200,7 +200,7 @@
         <fastjson.version>1.2.47</fastjson.version>
         <commons-io.version>2.0.1</commons-io.version>
         <commons-lang.version>2.6</commons-lang.version>
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-codec.version>1.10</commons-codec.version>
         <mybatis-spring.version>1.3.0</mybatis-spring.version>
         <jersey.version>1.2</jersey.version>
