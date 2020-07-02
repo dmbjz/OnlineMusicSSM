@@ -1,0 +1,384 @@
+#footer {
+    *zoom: 1;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#footer .gap {
+    overflow: hidden;
+    min-width: 984px;
+    padding: 0 20px;
+    border-top: 1px solid #e6e6e6;
+    background-color: #FFF
+}
+
+#footer .wrapper {
+    overflow: hidden;
+    width: auto;
+    _width: 980px;
+    max-width: 1100px;
+    min-width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #999
+}
+
+#footer .wrapper .content {
+    _zoom: 1;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #CCC
+}
+
+#footer .wrapper .content .sitemap {
+    float: left
+}
+
+#footer .wrapper .content .sitemap dl {
+    float: left;
+    padding: 0 30px 0 10px;
+    line-height: 22px
+}
+
+#footer .wrapper .content .sitemap dl dt {
+    position: relative;
+    margin: 0 0 5px;
+    font-weight: bold;
+    color: #666
+}
+
+#footer .wrapper .content .sitemap dl a {
+    color: #999
+}
+
+#footer .wrapper .content .sitemap dl .hot {
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    background: url('//img.xiami.net/res/v3/img/sup_hot.gif') no-repeat
+}
+
+#footer .wrapper .content .cooperation {
+    float: right;
+    width: 430px
+}
+
+#footer .wrapper .content .cooperation p {
+    overflow: hidden;
+    background: url('//img.xiami.net/static/img/common/partners_icon.jpg') no-repeat right top
+}
+
+#footer .wrapper .content .cooperation span {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 150px;
+    padding-top: 15px
+}
+
+#footer .wrapper .content .cooperation a {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 7px 5px;
+    text-decoration: none
+}
+
+#footer .wrapper .ali_group {
+    overflow: hidden;
+    border-bottom: 1px dashed #CCC
+}
+
+#footer .wrapper .ali_group a {
+    float: left;
+    margin: 10px 0 10px -1px;
+    padding: 0 10px;
+    border-left: 1px solid #EEE;
+    color: #999;
+    line-height: 18px
+}
+
+#footer .wrapper .extra {
+    clear: both;
+    margin-top: 15px
+}
+
+#footer .wrapper .extra .sns {
+    float: left;
+    text-indent: 10px;
+    vertical-align: middle
+}
+
+#footer .wrapper .extra .sns .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url('//img.xiami.net/res/v3/img/sync-ico_v15.gif') no-repeat;
+    vertical-align: middle
+}
+
+#footer .wrapper .extra .sns .sina {
+    background-position: 0 -16px
+}
+
+#footer .wrapper .extra .sns a:hover .sina {
+    background-position: 0 0
+}
+
+#footer .wrapper .extra .sns .renren {
+    background-position: 0 -80px
+}
+
+#footer .wrapper .extra .sns a:hover .renren {
+    background-position: 0 -64px
+}
+
+#footer .wrapper .extra .sns .qzone {
+    background-position: 0 -272px
+}
+
+#footer .wrapper .extra .sns a:hover .qzone {
+    background-position: 0 -256px
+}
+
+#footer .wrapper .extra .sns .tqq {
+    background-position: 0 -144px
+}
+
+#footer .wrapper .extra .sns a:hover .tqq {
+    background-position: 0 -128px
+}
+
+#footer .wrapper .extra .sns .sohu {
+    background-position: 0 -48px
+}
+
+#footer .wrapper .extra .sns a:hover .sohu {
+    background-position: 0 -32px
+}
+
+#footer .wrapper .extra .sns .douban {
+    background-position: 0 -208px
+}
+
+#footer .wrapper .extra .sns a:hover .douban {
+    background-position: 0 -192px
+}
+
+#footer .wrapper .extra .sns .t163 {
+    background-position: 0 -112px
+}
+
+#footer .wrapper .extra .sns a:hover .t163 {
+    background-position: 0 -96px
+}
+
+#footer .wrapper .extra .copyright {
+    float: right;
+    color: #AAA;
+    text-align: right
+}
+
+#footer .wrapper .extra .copyright a {
+    color: #AAA
+}
+
+#footer .wrapper .extra .copyright strong {
+    display: inline-block;
+    overflow: hidden;
+    width: 117px;
+    height: 25px;
+    margin-left: 15px;
+    background-image: url('//img.xiami.net/res/v3/img/xiami_motto.png');
+    text-indent: 100%;
+    line-height: 25px;
+    vertical-align: middle
+}
+
+#sidebutton {
+    position: fixed;
+    _position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 999;
+    outline: none
+}
+
+#sidebutton a {
+    display: block;
+    width: 38px;
+    height: 34px;
+    padding-top: 4px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #D5D5D5;
+    background-color: #FEFEFE
+}
+
+#sidebutton span {
+    display: none
+}
+
+#sidebutton .sidebutton_qrcode {
+    position: relative;
+    border-radius: inherit
+}
+
+#sidebutton .sidebutton_gotop {
+    border-bottom-width: 1px;
+    border-radius: 0 0 3px 3px
+}
+
+#sidebutton .sidebutton_icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 4px 0 0 7px;
+    background: url('//img.xiami.net/static/img/common/footer_icon.png') no-repeat;
+    _background-image: url('//img.xiami.net/static/img/common/footer_icon.gif')
+}
+
+#sidebutton .sidebutton_qrcode .sidebutton_icon {
+    background-position: 0 0
+}
+
+#sidebutton .sidebutton_feedback .sidebutton_icon {
+    background-position: 0 -24px
+}
+
+#sidebutton .sidebutton_gotop .sidebutton_icon {
+    background-position: 0 -48px
+}
+
+#sidebutton .sidebutton_code {
+    display: none;
+    position: absolute;
+    top: -47px;
+    right: 50px;
+    width: 140px;
+    height: 162px;
+    border: 1px solid #E06E16;
+    border-radius: 3px 3px;
+    background-color: #F60;
+    text-align: center
+}
+
+#sidebutton .sidebutton_code strong {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFF
+}
+
+#sidebutton .sidebutton_qrcode .sidebutton_triangle {
+    position: absolute;
+    right: -11px;
+    top: 55px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #E06E16
+}
+
+#sidebutton .sidebutton_qrcode .sidebutton_triangle i {
+    *font-style: normal;
+    position: absolute;
+    left: -2px;
+    color: #F60
+}
+
+#sidebutton a:hover {
+    border-color: #E06E16;
+    background-color: #F60;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none
+}
+
+#sidebutton a:hover .sidebutton_icon {
+    display: none
+}
+
+#sidebutton a:hover span {
+    display: block
+}
+
+#sidebutton .sidebutton_qrcode:hover .sidebutton_code {
+    display: block
+}
+
+.t_hide {
+    display: none
+}
+
+.t_show {
+    display: block
+}
+
+#sidebutton .sidebutton_newsite {
+    position: relative;
+    border-radius: 3px 3px 0 0;
+}
+
+#sidebutton .sidebutton_newsite .newsite_icon {
+    display: block;
+    width: 24px;
+    height: 21px;
+    margin: 4px auto 0 auto;
+}
+
+#sidebutton .sidebutton_newsite .newsite_xm {
+    display: block;
+    width: 34px;
+    height: 61px;
+    position: absolute;
+    top: -27px;
+    left: 3px;
+    z-index: -1;
+}
+
+#sidebutton .sidebutton_newsite .newsite_beta {
+    display: block;
+    width: 19px;
+    height: 8px;
+    position: absolute;
+    top: 6px;
+    left: -12px;
+}
+
+#sidebutton a:hover .newsite_icon {
+    display: none;
+}
+
+A.applink:hover {
+    border: 2px dotted #DCE6F4;
+    padding: 2px;
+    background-color: #ffff00;
+    color: green;
+    text-decoration: none
+}
+
+A.applink {
+    border: 2px dotted #DCE6F4;
+    padding: 2px;
+    color: #2F5BFF;
+    background: transparent;
+    text-decoration: none
+}
+
+A.info {
+    color: #2F5BFF;
+    background: transparent;
+    text-decoration: none
+}
+
+A.info:hover {
+    color: green;
+    background: transparent;
+    text-decoration: underline
+}
+.Anotice_Bar {
+    background: #f9f9f9;
+    padding: 8px;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+}

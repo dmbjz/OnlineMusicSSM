@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tx.dao.SongerMapper">
+  <resultMap id="BaseResultMap" type="cn.tx.model.Songer">
+    <id column="SRID" jdbcType="INTEGER" property="srid" />
+    <result column="TID" jdbcType="INTEGER" property="tid" />
+    <result column="SRNAME" jdbcType="VARCHAR" property="srname" />
+    <result column="AREA" jdbcType="VARCHAR" property="area" />
+    <result column="PIC" jdbcType="VARCHAR" property="pic" />
+    <result column="IS_HOT" jdbcType="INTEGER" property="isHot" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.tx.model.Songer">
+    <result column="INTRO" jdbcType="LONGVARCHAR" property="intro" />
+  </resultMap>
+
+
+  <resultMap id="selectByConditionRM" type="cn.tx.model.Songer" extends="ResultMapWithBLOBs">
+    <association property="mtype" javaType="cn.tx.model.Mtype" resultMap="cn.tx.dao.MtypeMapper.BaseResultMap"></association>
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    SRID, TID, SRNAME, AREA, PIC, IS_HOT
+  </sql>
+  <sql id="Blob_Column_List">
+    INTRO
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from songer
+    where SRID = #{srid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from songer
+    where SRID = #{srid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.tx.model.Songer">
+    insert into songer (SRID, TID, SRNAME, 
+      AREA, PIC, IS_HOT, INTRO
+      )
+    values (#{srid,jdbcType=INTEGER}, #{tid,jdbcType=INTEGER}, #{srname,jdbcType=VARCHAR}, 
+      #{area,jdbcType=VARCHAR}, #{pic,jdbcType=VARCHAR}, #{isHot,jdbcType=INTEGER}, #{intro,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.tx.model.Songer">
+    insert into songer
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="srid != null">
+        SRID,
+      </if>
+      <if test="tid != null">
+        TID,
+      </if>
+      <if test="srname != null">
+        SRNAME,
+      </if>
+      <if test="area != null">
+        AREA,
+      </if>
+      <if test="pic != null">
+        PIC,
+      </if>
+      <if test="isHot != null">
+        IS_HOT,
+      </if>
+      <if test="intro != null">
+        INTRO,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="srid != null">
+        #{srid,jdbcType=INTEGER},
+      </if>
+      <if test="tid != null">
+        #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="srname != null">
+        #{srname,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null">
+        #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="isHot != null">
+        #{isHot,jdbcType=INTEGER},
+      </if>
+      <if test="intro != null">
+        #{intro,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.tx.model.Songer">
+    update songer
+    <set>
+      <if test="tid != null">
+        TID = #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="srname != null">
+        SRNAME = #{srname,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        AREA = #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null">
+        PIC = #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="isHot != null">
+        IS_HOT = #{isHot,jdbcType=INTEGER},
+      </if>
+      <if test="intro != null">
+        INTRO = #{intro,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where SRID = #{srid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.tx.model.Songer">
+    update songer
+    set TID = #{tid,jdbcType=INTEGER},
+      SRNAME = #{srname,jdbcType=VARCHAR},
+      AREA = #{area,jdbcType=VARCHAR},
+      PIC = #{pic,jdbcType=VARCHAR},
+      IS_HOT = #{isHot,jdbcType=INTEGER},
+      INTRO = #{intro,jdbcType=LONGVARCHAR}
+    where SRID = #{srid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.tx.model.Songer">
+    update songer
+    set TID = #{tid,jdbcType=INTEGER},
+      SRNAME = #{srname,jdbcType=VARCHAR},
+      AREA = #{area,jdbcType=VARCHAR},
+      PIC = #{pic,jdbcType=VARCHAR},
+      IS_HOT = #{isHot,jdbcType=INTEGER}
+    where SRID = #{srid,jdbcType=INTEGER}
+  </update>
+
+
+
+  <select id="selectByCondition" parameterType="cn.tx.query.SongerQuery" resultMap="selectByConditionRM">
+    SELECT
+	*
+    FROM
+        songer s
+    LEFT JOIN mtype m ON s.TID = m.TID
+    <where>
+      <if test="srname != null and srname != ''">
+        s.SRNAME LIKE '%${srname}%'
+      </if>
+      <if test="area != null and area != ''">
+        AND s.AREA LIKE '%${area}%'
+      </if>
+      <if test="tid != null">
+        AND s.TID = #{tid}
+      </if>
+      <if test="isHot != null">
+        AND s.IS_HOT = #{isHot}
+      </if>
+    </where>
+    LIMIT #{startNum}, #{pageSize}
+  </select>
+
+  <select id="selectByConditionCount" parameterType="cn.tx.query.SongerQuery" resultType="int">
+    SELECT
+    count(*)
+    FROM
+    songer s
+    LEFT JOIN mtype m ON s.TID = m.TID
+    <where>
+      <if test="srname != null and srname != ''">
+        s.SRNAME LIKE '%${srname}%'
+      </if>
+      <if test="area != null and area != ''">
+        AND s.AREA LIKE '%${area}%'
+      </if>
+      <if test="tid != null">
+        AND s.TID = #{tid}
+      </if>
+      <if test="isHot != null">
+        AND s.IS_HOT = #{isHot}
+      </if>
+    </where>
+
+  </select>
+
+  <select id="selectObjectAll" resultMap="BaseResultMap">
+    select * from songer
+  </select>
+
+  <resultMap id="selectSongerSongsByIdRM" type="cn.tx.model.Songer" extends="ResultMapWithBLOBs">
+    <association property="mtype" javaType="cn.tx.model.Mtype" resultMap="cn.tx.dao.MtypeMapper.BaseResultMap"></association>
+    <collection property="songs" ofType="cn.tx.model.Song" resultMap="cn.tx.dao.SongMapper.BaseResultMap"></collection>
+   </resultMap>
+
+  <select id="selectSongerSongsById" parameterType="int" resultMap="selectSongerSongsByIdRM">
+    SELECT
+        s.SRID, s.TID, s.SRNAME, s.AREA, s.IS_HOT, s.INTRO, s1.*, m.*
+    FROM
+        songer s
+    LEFT JOIN song s1 ON s.SRID = s1.SRID
+    LEFT JOIN mtype m on s.TID = m.TID
+    WHERE
+
+        s.SRID = #{srid}
+
+  </select>
+
+  <select id="selectSongerupdate" parameterType="int" resultMap="selectSongerSongsByIdRM">
+    SELECT * from songer s where s.SRID = #{srid};
+  </select>
+</mapper>

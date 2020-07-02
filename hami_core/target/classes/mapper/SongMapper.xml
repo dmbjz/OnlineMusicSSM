@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tx.dao.SongMapper">
+    <resultMap id="BaseResultMap" type="cn.tx.model.Song">
+        <id column="SID" jdbcType="INTEGER" property="sid"/>
+        <result column="TID" jdbcType="INTEGER" property="tid"/>
+        <result column="SRID" jdbcType="INTEGER" property="srid"/>
+        <result column="AID" jdbcType="INTEGER" property="aid"/>
+        <result column="SNAME" jdbcType="VARCHAR" property="sname"/>
+        <result column="PIC" jdbcType="VARCHAR" property="pic"/>
+        <result column="MP3" jdbcType="VARCHAR" property="mp3"/>
+        <result column="IS_HOT" jdbcType="INTEGER" property="isHot"/>
+        <result column="IS_NEW" jdbcType="INTEGER" property="isNew"/>
+        <result column="PTIMES" jdbcType="INTEGER" property="ptimes"/>
+        <result column="AUDIT_STATUS" jdbcType="INTEGER" property="auditStatus"/>
+        <result column="SHOW_STATUS" jdbcType="INTEGER" property="showStatus"/>
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.tx.model.Song">
+        <result column="LRC" jdbcType="LONGVARCHAR" property="lrc"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    SID, TID, SRID, AID, SNAME, PIC, MP3, IS_HOT, IS_NEW, PTIMES, AUDIT_STATUS, SHOW_STATUS
+  </sql>
+    <sql id="Blob_Column_List">
+    LRC
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+        select
+        <include refid="Base_Column_List"/>
+        ,
+        <include refid="Blob_Column_List"/>
+        from song
+        where SID = #{sid,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from song
+    where SID = #{sid,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" parameterType="cn.tx.model.Song">
+    insert into song (SID, TID, SRID, 
+      AID, SNAME, PIC, MP3, 
+      IS_HOT, IS_NEW, PTIMES, 
+      AUDIT_STATUS, SHOW_STATUS, LRC
+      )
+    values (#{sid,jdbcType=INTEGER}, #{tid,jdbcType=INTEGER}, #{srid,jdbcType=INTEGER}, 
+      #{aid,jdbcType=INTEGER}, #{sname,jdbcType=VARCHAR}, #{pic,jdbcType=VARCHAR}, #{mp3,jdbcType=VARCHAR}, 
+      #{isHot,jdbcType=INTEGER}, #{isNew,jdbcType=INTEGER}, #{ptimes,jdbcType=INTEGER}, 
+      #{auditStatus,jdbcType=INTEGER}, #{showStatus,jdbcType=INTEGER}, #{lrc,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+    <insert id="insertSelective" parameterType="cn.tx.model.Song">
+        insert into song
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="sid != null">
+                SID,
+            </if>
+            <if test="tid != null">
+                TID,
+            </if>
+            <if test="srid != null">
+                SRID,
+            </if>
+            <if test="aid != null">
+                AID,
+            </if>
+            <if test="sname != null">
+                SNAME,
+            </if>
+            <if test="pic != null">
+                PIC,
+            </if>
+            <if test="mp3 != null">
+                MP3,
+            </if>
+            <if test="isHot != null">
+                IS_HOT,
+            </if>
+            <if test="isNew != null">
+                IS_NEW,
+            </if>
+            <if test="ptimes != null">
+                PTIMES,
+            </if>
+            <if test="auditStatus != null">
+                AUDIT_STATUS,
+            </if>
+            <if test="showStatus != null">
+                SHOW_STATUS,
+            </if>
+            <if test="lrc != null">
+                LRC,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="sid != null">
+                #{sid,jdbcType=INTEGER},
+            </if>
+            <if test="tid != null">
+                #{tid,jdbcType=INTEGER},
+            </if>
+            <if test="srid != null">
+                #{srid,jdbcType=INTEGER},
+            </if>
+            <if test="aid != null">
+                #{aid,jdbcType=INTEGER},
+            </if>
+            <if test="sname != null">
+                #{sname,jdbcType=VARCHAR},
+            </if>
+            <if test="pic != null">
+                #{pic,jdbcType=VARCHAR},
+            </if>
+            <if test="mp3 != null">
+                #{mp3,jdbcType=VARCHAR},
+            </if>
+            <if test="isHot != null">
+                #{isHot,jdbcType=INTEGER},
+            </if>
+            <if test="isNew != null">
+                #{isNew,jdbcType=INTEGER},
+            </if>
+            <if test="ptimes != null">
+                #{ptimes,jdbcType=INTEGER},
+            </if>
+            <if test="auditStatus != null">
+                #{auditStatus,jdbcType=INTEGER},
+            </if>
+            <if test="showStatus != null">
+                #{showStatus,jdbcType=INTEGER},
+            </if>
+            <if test="lrc != null">
+                #{lrc,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="cn.tx.model.Song">
+        update song
+        <set>
+            <if test="tid != null">
+                TID = #{tid,jdbcType=INTEGER},
+            </if>
+            <if test="srid != null">
+                SRID = #{srid,jdbcType=INTEGER},
+            </if>
+            <if test="aid != null">
+                AID = #{aid,jdbcType=INTEGER},
+            </if>
+            <if test="sname != null">
+                SNAME = #{sname,jdbcType=VARCHAR},
+            </if>
+            <if test="pic != null">
+                PIC = #{pic,jdbcType=VARCHAR},
+            </if>
+            <if test="mp3 != null">
+                MP3 = #{mp3,jdbcType=VARCHAR},
+            </if>
+            <if test="isHot != null">
+                IS_HOT = #{isHot,jdbcType=INTEGER},
+            </if>
+            <if test="isNew != null">
+                IS_NEW = #{isNew,jdbcType=INTEGER},
+            </if>
+            <if test="ptimes != null">
+                PTIMES = #{ptimes,jdbcType=INTEGER},
+            </if>
+            <if test="auditStatus != null">
+                AUDIT_STATUS = #{auditStatus,jdbcType=INTEGER},
+            </if>
+            <if test="showStatus != null">
+                SHOW_STATUS = #{showStatus,jdbcType=INTEGER},
+            </if>
+            <if test="lrc != null">
+                LRC = #{lrc,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where SID = #{sid,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.tx.model.Song">
+    update song
+    set TID = #{tid,jdbcType=INTEGER},
+      SRID = #{srid,jdbcType=INTEGER},
+      AID = #{aid,jdbcType=INTEGER},
+      SNAME = #{sname,jdbcType=VARCHAR},
+      PIC = #{pic,jdbcType=VARCHAR},
+      MP3 = #{mp3,jdbcType=VARCHAR},
+      IS_HOT = #{isHot,jdbcType=INTEGER},
+      IS_NEW = #{isNew,jdbcType=INTEGER},
+      PTIMES = #{ptimes,jdbcType=INTEGER},
+      AUDIT_STATUS = #{auditStatus,jdbcType=INTEGER},
+      SHOW_STATUS = #{showStatus,jdbcType=INTEGER},
+      LRC = #{lrc,jdbcType=LONGVARCHAR}
+    where SID = #{sid,jdbcType=INTEGER}
+  </update>
+    <update id="updateByPrimaryKey" parameterType="cn.tx.model.Song">
+    update song
+    set TID = #{tid,jdbcType=INTEGER},
+      SRID = #{srid,jdbcType=INTEGER},
+      AID = #{aid,jdbcType=INTEGER},
+      SNAME = #{sname,jdbcType=VARCHAR},
+      PIC = #{pic,jdbcType=VARCHAR},
+      MP3 = #{mp3,jdbcType=VARCHAR},
+      IS_HOT = #{isHot,jdbcType=INTEGER},
+      IS_NEW = #{isNew,jdbcType=INTEGER},
+      PTIMES = #{ptimes,jdbcType=INTEGER},
+      AUDIT_STATUS = #{auditStatus,jdbcType=INTEGER},
+      SHOW_STATUS = #{showStatus,jdbcType=INTEGER}
+    where SID = #{sid,jdbcType=INTEGER}
+  </update>
+
+
+    <resultMap id="selectByConditionRM" type="cn.tx.model.Song" extends="BaseResultMap">
+        <association property="mtype" javaType="cn.tx.model.Mtype"
+                     resultMap="cn.tx.dao.MtypeMapper.BaseResultMap"></association>
+        <association property="songer" javaType="cn.tx.model.Songer"
+                     resultMap="cn.tx.dao.SongerMapper.BaseResultMap"></association>
+        <association property="album" javaType="cn.tx.model.Album"
+                     resultMap="cn.tx.dao.AlbumMapper.BaseResultMap"></association>
+
+    </resultMap>
+
+
+    <select id="selectByCondition" parameterType="cn.tx.query.SongQuery" resultMap="selectByConditionRM">
+        SELECT
+        s.SID,
+        s.TID,
+        s.SRID,
+        s.AID,
+        s.SNAME,
+        s.MP3,
+        s.IS_HOT,
+        s.IS_NEW,
+        s.PTIMES,
+        s.AUDIT_STATUS,
+        s.SHOW_STATUS,
+        m.TNAME,
+        sr.SRNAME,
+        s.PIC,
+        a.ANAME
+        FROM
+        song s
+        LEFT JOIN mtype m ON s.TID = m.TID
+        LEFT JOIN songer sr ON s.SRID = sr.SRID
+        LEFT JOIN album a ON s.AID = a.AID
+        <where>
+            <if test="sname != null and sname != ''">
+                s.SNAME LIKE '%${sname}%'
+            </if>
+            <if test="srname != null and srname != ''">
+                AND sr.SRNAME LIKE '%${srname}%'
+            </if>
+            <if test="aname != null and aname != ''">
+                AND a.ANAME LIKE '%${aname}%'
+            </if>
+            <if test="tid != null">
+                AND s.TID = #{tid}
+            </if>
+            <if test="isHot != null">
+                AND s.IS_HOT = #{isHot}
+            </if>
+            <if test="isNew != null">
+                AND s.IS_NEW = #{isNew}
+            </if>
+            <if test="sid != null and sid != ''">
+                AND s.sid = #{sid}
+            </if>
+        </where>
+        LIMIT #{startNum}, #{pageSize}
+    </select>
+
+    <select id="selectByConditionCount" parameterType="cn.tx.query.SongQuery" resultType="int">
+        SELECT
+        count(*)
+        FROM
+        song s
+        LEFT JOIN mtype m ON s.TID = m.TID
+        LEFT JOIN songer sr ON s.SRID = sr.SRID
+        LEFT JOIN album a ON s.AID = a.AID
+        <where>
+            <if test="sname != null and sname != ''">
+                s.SNAME LIKE '%${sname}%'
+            </if>
+            <if test="srname != null and srname != ''">
+                AND sr.SRNAME LIKE '%${srname}%'
+            </if>
+            <if test="aname != null and aname != ''">
+                AND a.ANAME LIKE '%${aname}%'
+            </if>
+            <if test="tid != null">
+                AND s.TID = #{tid}
+            </if>
+            <if test="isHot != null">
+                AND s.IS_HOT = #{isHot}
+            </if>
+            <if test="isNew != null">
+                AND s.IS_NEW = #{isNew}
+            </if>
+        </where>
+    </select>
+
+
+    <!--
+
+    -->
+    <select id="selectSongBySids" parameterType="list" resultMap="selectByConditionRM">
+        select * from song s
+        LEFT JOIN mtype m ON s.TID = m.TID
+        LEFT JOIN songer sr ON s.SRID = sr.SRID
+        LEFT JOIN album a ON s.AID = a.AID
+        <where>
+            s.sid in
+            <if test="list != null">
+                <foreach collection="list" open="(" close=")" separator="," item="sid">
+                    #{sid}
+                </foreach>
+            </if>
+            ORDER BY FIELD (s.SID,
+                <foreach collection="list"  separator="," item="sid">
+                    #{sid}
+                </foreach>
+            )
+        </where>
+    </select>
+
+    <resultMap id="selectSongBySidRM" type="cn.tx.model.Song" extends="ResultMapWithBLOBs">
+
+        <association property="songer" javaType="cn.tx.model.Songer"
+                     resultMap="cn.tx.dao.SongerMapper.BaseResultMap"></association>
+    </resultMap>
+
+    <select id="selectSongBySid" parameterType="int" resultMap="selectSongBySidRM">
+        select * from song s
+        LEFT JOIN songer sr ON s.SRID = sr.SRID
+        where s.sid = #{sid}
+    </select>
+
+    <select id="selectSongupdate" parameterType="int" resultMap="selectByConditionRM">
+        select * from song s
+        LEFT JOIN mtype m ON s.TID = m.TID
+        LEFT JOIN songer sr ON s.SRID = sr.SRID
+        LEFT JOIN album a ON s.AID = a.AID
+        where s.sid = #{sid}
+    </select>
+</mapper>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tx.dao.AlbumMapper">
+  <resultMap id="BaseResultMap" type="cn.tx.model.Album">
+    <id column="AID" jdbcType="INTEGER" property="aid" />
+    <result column="ANAME" jdbcType="VARCHAR" property="aname" />
+    <result column="PIC" jdbcType="VARCHAR" property="pic" />
+    <result column="COMPANY" jdbcType="VARCHAR" property="company" />
+    <result column="PDATE" jdbcType="DATE" property="pdate" />
+    <result column="LANG" jdbcType="VARCHAR" property="lang" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    AID, ANAME, PIC, COMPANY, PDATE, LANG
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from album
+    where AID = #{aid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from album
+    where AID = #{aid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.tx.model.Album">
+    insert into album (AID, ANAME, PIC, 
+      COMPANY, PDATE, LANG)
+    values (#{aid,jdbcType=INTEGER}, #{aname,jdbcType=VARCHAR}, #{pic,jdbcType=VARCHAR}, 
+      #{company,jdbcType=VARCHAR}, #{pdate,jdbcType=DATE}, #{lang,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.tx.model.Album">
+    insert into album
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        AID,
+      </if>
+      <if test="aname != null">
+        ANAME,
+      </if>
+      <if test="pic != null">
+        PIC,
+      </if>
+      <if test="company != null">
+        COMPANY,
+      </if>
+      <if test="pdate != null">
+        PDATE,
+      </if>
+      <if test="lang != null">
+        LANG,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="aid != null">
+        #{aid,jdbcType=INTEGER},
+      </if>
+      <if test="aname != null">
+        #{aname,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null">
+        #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="company != null">
+        #{company,jdbcType=VARCHAR},
+      </if>
+      <if test="pdate != null">
+        #{pdate,jdbcType=DATE},
+      </if>
+      <if test="lang != null">
+        #{lang,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.tx.model.Album">
+    update album
+    <set>
+      <if test="aname != null">
+        ANAME = #{aname,jdbcType=VARCHAR},
+      </if>
+      <if test="pic != null">
+        PIC = #{pic,jdbcType=VARCHAR},
+      </if>
+      <if test="company != null">
+        COMPANY = #{company,jdbcType=VARCHAR},
+      </if>
+      <if test="pdate != null">
+        PDATE = #{pdate,jdbcType=DATE},
+      </if>
+      <if test="lang != null">
+        LANG = #{lang,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where AID = #{aid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.tx.model.Album">
+    update album
+    set ANAME = #{aname,jdbcType=VARCHAR},
+      PIC = #{pic,jdbcType=VARCHAR},
+      COMPANY = #{company,jdbcType=VARCHAR},
+      PDATE = #{pdate,jdbcType=DATE},
+      LANG = #{lang,jdbcType=VARCHAR}
+    where AID = #{aid,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByCondition" parameterType="cn.tx.query.AlbumQuery" resultMap="BaseResultMap">
+    select * from album t
+    <where>
+      <if test="aname != null and aname != ''">
+        t.ANAME like '%${aname}%'
+      </if>
+      <if test="company != null and company != ''">
+        AND  t.COMPANY like '%${company}%'
+      </if>
+      <if test="lang != null and lang != ''">
+        AND  t.LANG like '%${lang}%'
+      </if>
+      <if test="pdate != null">
+        AND  t.PDATE > #{pdate}
+      </if>
+    </where>
+    LIMIT #{startNum}, #{pageSize}
+  </select>
+
+  <select id="selectByConditionCount" parameterType="cn.tx.query.AlbumQuery" resultType="int">
+    select COUNT(*) from album t
+    <where>
+      <if test="aname != null and aname != ''">
+        t.ANAME like '%${aname}%'
+      </if>
+      <if test="company != null and company != ''">
+        AND  t.COMPANY like '%${company}%'
+      </if>
+      <if test="lang != null and lang != ''">
+        AND  t.LANG like '%${lang}%'
+      </if>
+      <if test="pdate != null">
+        AND  t.PDATE > #{pdate}
+      </if>
+    </where>
+  </select>
+
+  <select id="selectAlbumByName" parameterType="map" resultMap="BaseResultMap">
+    select * from album t where t.aname = #{aname}
+  </select>
+
+  <select id="selectObjectAll" resultMap="BaseResultMap">
+    select * from album
+  </select>
+</mapper>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hami_portal:war">
+    <output-path>$PROJECT_DIR$/hami_portal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hami_portal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hami_portal-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hami_portal:war exploded" />
+    </root>
+  </artifact>
+</component>

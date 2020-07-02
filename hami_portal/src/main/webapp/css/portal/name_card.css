@@ -1,0 +1,268 @@
+.name_card {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #666;
+}
+.name_card .content {
+	background: url(//img.xiami.net/static/relation/img/name_card_bg.png) no-repeat;
+	_background: url(//img.xiami.net/static/relation/img/name_card_bg.gif) no-repeat;
+	width: 333px;
+	height: 220px;
+	padding: 6px;
+	text-align: left;
+}
+.name_card .inner {
+	background: #fff;
+	overflow: hidden;
+	width: 331px;
+	height: 218px;
+	border: 1px solid #c6cacc;
+	border-radius: 2px;
+}
+.name_card .user_img {
+	float: left;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.name_card .user_img img {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.name_card .user_info {
+	background: #f5f9fa;
+	overflow: hidden;
+	height: 50px;/*height: 80px;*/
+	padding: 15px 20px;
+	border-radius: 2px 2px 0 0;
+}
+.name_card .user_info .info {
+	float: left;
+	width: 140px;
+}
+.name_card .user_info a.nick {
+	line-height: 25px;
+	text-decoration: none;
+	color: #333;
+}
+.name_card .relation_info {
+	overflow: hidden;
+	height: 40px;/*height: 40px;*/
+	border-bottom: 1px solid #f0f0f0;
+}
+.name_card .relation_info li {
+	float: left;
+	overflow: hidden;
+	width: 33.1%;
+	*width: 32.5%;
+	height: 40px;
+	border-right: 1px solid #f0f0f0;
+	text-align: center;
+}
+.name_card .relation_info li.last {
+	border-right: none;
+}
+.name_card .relation_info a {
+	display: block;
+	height: 24px;
+	padding-top: 15px;
+	color: #999;
+	text-decoration: none;
+}
+.name_card .relation_info em {
+	font-style: normal;
+	color: #f60;
+}
+.name_card .play_count {
+	padding: 12px 20px;
+	overflow: hidden;
+	height: 22px;/*height: 46px;*/
+	border-bottom: 1px solid #f0f0f0;
+}
+.name_card .play_count span {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	line-height: 22px;
+}
+.name_card .play_count em {
+	background: url(//img.xiami.net/static/relation/img/name_card_bg.png) no-repeat -100px -250px;
+	_background: url(//img.xiami.net/static/relation/img/name_card_bg.gif) no-repeat -100px -250px;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 22px;
+	margin-right: 1px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	font-style: normal;
+	color: #fff;
+}
+.name_card .relative {
+	overflow: hidden;
+	height: 26px;/*height: 50px;*/
+	padding: 12px 10px;
+}
+/*
+.name_card .relative a.send_pm {
+	float: left;
+	display: block;
+	line-height: 24px;
+	color: #8ca6d8;
+}
+*/
+.name_card .relative a.btn {
+	_width: 75px;
+	margin: 0 10px;
+}
+.name_card .arrow {
+	position: absolute;
+	background: url(//img.xiami.net/static/relation/img/name_card_bg.png) no-repeat 0 -250px;
+	_background: url(//img.xiami.net/static/relation/img/name_card_bg.gif) no-repeat 0 -250px;
+	width: 14px;
+	height: 13px;
+}
+.name_card_rt {
+	padding-bottom: 6px;
+}
+.name_card_rt .arrow {
+	left: 45px;
+	bottom: 0;
+}
+.name_card_lt {
+	padding-bottom: 6px;
+}
+.name_card_lt .arrow {
+	right: 45px;
+	bottom: 0;
+}
+.name_card_rb {
+	padding-top: 6px;
+}
+.name_card_rb .arrow {
+	background-position: -50px -250px;
+	left: 45px;
+	top: 0;
+}
+.name_card_lb {
+	padding-top: 6px;
+}
+.name_card_lb .arrow {
+	background-position: -50px -250px;
+	right: 45px;
+	top: 0;
+}
+
+
+.name_card i.icon {
+	background: url(//img.xiami.net/static/relation/img/icon.png) no-repeat;
+	_background-image: url(//img.xiami.net/static/relation/img/icon.gif);
+	display: inline-block;
+	overflow: hidden;
+	width: 16px;
+	height: 16px;
+	margin: -3px 0 0 0;
+	_margin: 3px 0 0 0;
+	line-height: 16px;
+	vertical-align: middle;
+}
+.name_card i.icon_male,
+.name_card i.icon_female {
+	background: url(//img.xiami.net/static/relation/img/icon.png) no-repeat;
+	_background-image: url(//img.xiami.net/static/relation/img/icon.gif);
+}
+.name_card i.icon_male {
+	background-position:-110px -20px;
+}
+.name_card i.icon_female {
+	background-position:-80px -20px;
+}
+.name_card i.icon_vip {
+	background: url(//img.xiami.net/static/img/vip/icons.png) no-repeat scroll 0 -50px transparent;
+	_background: url(//img.xiami.net/static/img/vip/icons.gif) no-repeat scroll 0 -50px transparent;
+}
+.name_card i.icon_loading {
+	background: url(//img.xiami.net/static/img/common/loading/loading.gif) no-repeat;
+}
+.name_card i.icon_add_follow {
+	background-position:-290px -110px;
+}
+.name_card i.icon_del_follow {
+	background-position:-260px -80px;
+}
+.name_card a:hover i.icon_del_follow {
+	background-position:-260px -110px;
+}
+.name_card i.icon_following {
+	background-position:-230px -80px;
+}
+.name_card i.icon_be_followed {
+	background-position:-170px -50px;
+}
+.name_card i.icon_play {
+	width: 18px;
+	height: 18px;
+	background: url(//img.xiami.net/static/img/common/btn_follow_play.gif) no-repeat scroll 0 0 transparent;
+}
+.name_card i.icon_play_disable {
+	width: 18px;
+	height: 18px;
+	background: url(//img.xiami.net/static/img/common/btn_follow_play.png) no-repeat scroll 0 -60px transparent;
+	_background: url(//img.xiami.net/static/img/common/btn_follow_play_8bit.png) no-repeat scroll 0 -60px transparent;
+}
+
+.name_card i.icon_msg {
+	width: 10px;
+	height: 8px;
+	background-image: url(../../../../../img.alicdn.com/tps/TB1gtc2OpXXXXb6aXXXXXXXXXXX-20-16.png);
+	background-size: contain;
+}
+
+.name_card a.btn_relation,
+.name_card a.btn_play,
+.name_card a.btn_play_disable,
+.name_card a.btn_send_pm {
+	background: #fafbfc;
+	display: block;
+	float: left;
+	min-width: 75px;
+	_width: 75px;
+	height: 24px;
+	padding: 0 3px;
+	border: 1px solid #ccc;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none;
+	font: normal 12px/24px arial,宋体;
+	color: #666;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #fff;
+}
+.name_card a.btn:hover {
+	text-decoration: none;
+	color: #f60;
+}
+.name_card a.btn_play_disable,
+.name_card a.btn_play_disable:hover {
+	cursor: default;
+	color: #ccc;
+}
+
+
+a.btn i.icon {
+	margin: -1px 3px 0 0;
+	_display: block;
+	_float: left;
+	_margin: 0;
+}

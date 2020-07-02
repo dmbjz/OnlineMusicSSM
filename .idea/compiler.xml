@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hami_console" />
+        <module name="hami_core" />
+        <module name="hami_file" />
+        <module name="hami_portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hami_console" target="1.8" />
+      <module name="hami_core" target="1.8" />
+      <module name="hami_file" target="1.8" />
+      <module name="hami_parent" target="1.8" />
+      <module name="hami_portal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

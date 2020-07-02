@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tx.dao.MtypeMapper">
+  <resultMap id="BaseResultMap" type="cn.tx.model.Mtype">
+    <id column="TID" jdbcType="INTEGER" property="tid" />
+    <result column="TNAME" jdbcType="VARCHAR" property="tname" />
+    <result column="TDESC" jdbcType="VARCHAR" property="tdesc" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    TID, TNAME, TDESC
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from mtype
+    where TID = #{tid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from mtype
+    where TID = #{tid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.tx.model.Mtype">
+    insert into mtype (TID, TNAME, TDESC
+      )
+    values (#{tid,jdbcType=INTEGER}, #{tname,jdbcType=VARCHAR}, #{tdesc,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.tx.model.Mtype">
+    insert into mtype
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        TID,
+      </if>
+      <if test="tname != null">
+        TNAME,
+      </if>
+      <if test="tdesc != null">
+        TDESC,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="tname != null">
+        #{tname,jdbcType=VARCHAR},
+      </if>
+      <if test="tdesc != null">
+        #{tdesc,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.tx.model.Mtype">
+    update mtype
+    <set>
+      <if test="tname != null">
+        TNAME = #{tname,jdbcType=VARCHAR},
+      </if>
+      <if test="tdesc != null">
+        TDESC = #{tdesc,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where TID = #{tid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.tx.model.Mtype">
+    update mtype
+    set TNAME = #{tname,jdbcType=VARCHAR},
+      TDESC = #{tdesc,jdbcType=VARCHAR}
+    where TID = #{tid,jdbcType=INTEGER}
+  </update>
+
+
+  <select id="selectByCondition" parameterType="cn.tx.query.MtypeQuery" resultMap="BaseResultMap">
+    select * from mtype t
+    <where>
+      <if test="tname != null and tname != ''">
+        t.TNAME like '%${tname}%'
+      </if>
+    </where>
+      LIMIT #{startNum}, #{pageSize}
+  </select>
+
+  <select id="selectByConditionCount" parameterType="cn.tx.query.MtypeQuery" resultType="int">
+    select count(*) from mtype t
+    <where>
+      <if test="tname != null and tname != ''">
+        t.TNAME like '%${tname}%'
+      </if>
+    </where>
+  </select>
+
+  <select id="selectObjectAll" resultMap="BaseResultMap">
+    select * from mtype
+  </select>
+</mapper>

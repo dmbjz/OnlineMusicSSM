@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hami_console:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de1772ca-d3c1-4937-9c1b-421165a0d70c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hami_core/target/" />
+    <ignored path="$PROJECT_DIR$/hami_console/target/" />
+    <ignored path="$PROJECT_DIR$/hami_portal/target/" />
+    <ignored path="$PROJECT_DIR$/hami_file/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addAlbum</find>
+      <find>loadMore</find>
+      <find>郁可唯</find>
+      <find>selectSongerSongsById</find>
+      <find>selectByConditionRM</find>
+      <find>duration</find>
+      <find>updateProgress</find>
+      <find>fPlay</find>
+      <find>addSong</find>
+      <find>selectAll</find>
+      <find>playsongs</find>
+      <find>i-file</find>
+      <find>songerForm</find>
+      <find>changeSub</find>
+      <find>pic</find>
+      <find>srid</find>
+      <find>btn-warning</find>
+      <find>subsong</find>
+      <find>modify</find>
+      <find>demo2</find>
+      <find>tid</find>
+      <find>txForm</find>
+      <find>lastMp3</find>
+      <find>submitPic</find>
+      <find>mp3loc</find>
+      <find>mp3</find>
+      <find>songImg</find>
+      <find>submitMp3</find>
+      <find>song-form</find>
+      <find>location</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Demo</replace>
+      <replace>demo</replace>
+      <replace>txForm</replace>
+      <replace>${songer.srname}</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/SongerMapper.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/SongerService.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/SongerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/resources/mapper/SongerMapper.xml" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/SongerController.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/model/Album.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/AlbumController.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/menu.jsp" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/search.jsp" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/songer.jsp" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/java/cn/tx/controller/SongController.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/album1.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/chart.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/fullCalendar.html" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/player.jsp" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/header.jsp" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/resources/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/AlbumMapper.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/LoginQuery.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/LoginMapper.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/SongMapper.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/resources/mapper/LoginMapper.xml" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/model/Login.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/login.jsp" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/SongQuery.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/SongService.java" />
+        <option value="$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/SongServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/mtype.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/hami_portal/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/index.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/songer.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/updateSong.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/updateSonger.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addAlbum.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addSong.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addSonger.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/album.jsp" />
+        <option value="$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/song.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files (x86)/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\repository\mvnrepository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-31" />
+    <option name="y" value="-31" />
+    <option name="width" value="1946" />
+    <option name="height" value="1078" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hami_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hami_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hami_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hami_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hami_console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hami_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hami_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hami_console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hami_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hami_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hami_console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hami_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hami_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hami_console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586079143919" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.tx.service" />
+      <recent name="cn.tx.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\浏览器下载\hami_parent\hami_console\src\main\webapp\WEB-INF\page" />
+      <recent name="D:\浏览器下载\hami_parent\hami_console\src\main\webapp" />
+      <recent name="C:\Users\rlsl180506\IdeaProjects\hami_parent\hami_portal\src\main\webapp\WEB-INF\page" />
+      <recent name="C:\Users\rlsl180506\IdeaProjects\hami_parent\hami_console\src\main\webapp\WEB-INF\page" />
+      <recent name="C:\Users\rlsl180506\IdeaProjects\hami_parent\hami_core\src\test\resources\tpl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tx.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="cn.tx.service.BaseService" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AllProject\hami_parent\hami_portal\src\main\webapp" />
+      <recent name="D:\AllProject\hami_parent\hami_console\src\main\webapp" />
+      <recent name="D:\浏览器下载\hami_parent\hami_portal\src\main\webapp\WEB-INF\page" />
+      <recent name="D:\浏览器下载\hami_parent\hami_portal\src\main\webapp\js" />
+      <recent name="D:\hami_parent\hami_console\src\main\webapp\WEB-INF\page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.console">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cn.tx.util.Generator" />
+      <module name="hami_core" />
+      <option name="PROGRAM_PARAMETERS" value="Song" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tx.service.Test" />
+      <module name="hami_core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tx.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hami_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tx.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tx.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.tx.service.AlbumServiceTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SongerServiceTest.selectSonger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hami_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tx.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tx.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.tx.service.SongerServiceTest" />
+      <option name="METHOD_NAME" value="selectSonger" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="console" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="hami_console:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hami_parent" />
+        <option name="JNDI_PORT" value="2091" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5636" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hami_console:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="file" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <deployment>
+        <artifact name="hami_file:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hami_parent_5" />
+        <option name="HTTP_PORT" value="8088" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6050" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hami_file:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="portal" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.502" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <deployment>
+        <artifact name="hami_portal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hami_parent_6" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1082" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1558" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hami_portal:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.AlbumServiceTest.insert" />
+      <item itemvalue="JUnit.SongerServiceTest.selectSonger" />
+      <item itemvalue="Tomcat Server.console" />
+      <item itemvalue="Tomcat Server.portal" />
+      <item itemvalue="Tomcat Server.file" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SongerServiceTest.selectSonger" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.AlbumServiceTest.insert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de1772ca-d3c1-4937-9c1b-421165a0d70c" name="Default" comment="" />
+      <created>1571023846577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571023846577</updated>
+      <workItem from="1571023847923" duration="2847000" />
+      <workItem from="1571100933503" duration="3142000" />
+      <workItem from="1571104095631" duration="54000" />
+      <workItem from="1571104164125" duration="6453000" />
+      <workItem from="1571191419816" duration="11484000" />
+      <workItem from="1571236002991" duration="126000" />
+      <workItem from="1571273008446" duration="10569000" />
+      <workItem from="1571317086428" duration="1060000" />
+      <workItem from="1571361027785" duration="9317000" />
+      <workItem from="1571621738131" duration="8501000" />
+      <workItem from="1571705863368" duration="2634000" />
+      <workItem from="1571708519898" duration="691000" />
+      <workItem from="1571709229047" duration="12776000" />
+      <workItem from="1571733568921" duration="735000" />
+      <workItem from="1571744029786" duration="6368000" />
+      <workItem from="1571791412712" duration="11600000" />
+      <workItem from="1571878010866" duration="8444000" />
+      <workItem from="1571965059621" duration="11651000" />
+      <workItem from="1572004326229" duration="429000" />
+      <workItem from="1572004778564" duration="271000" />
+      <workItem from="1572224031433" duration="13217000" />
+      <workItem from="1584361412208" duration="531000" />
+      <workItem from="1584362043780" duration="35000" />
+      <workItem from="1584453441166" duration="2335000" />
+      <workItem from="1584512158734" duration="110000" />
+      <workItem from="1584584114660" duration="1023000" />
+      <workItem from="1584593791599" duration="1562000" />
+      <workItem from="1584598212751" duration="771000" />
+      <workItem from="1584702310212" duration="675000" />
+      <workItem from="1584797481316" duration="146000" />
+      <workItem from="1584863157741" duration="1041000" />
+      <workItem from="1584864398921" duration="21000" />
+      <workItem from="1584864764853" duration="20257000" />
+      <workItem from="1584929524987" duration="28046000" />
+      <workItem from="1585013590855" duration="4940000" />
+      <workItem from="1585020045699" duration="128000" />
+      <workItem from="1585050260426" duration="6349000" />
+      <workItem from="1585115554087" duration="1783000" />
+      <workItem from="1585117520062" duration="7882000" />
+      <workItem from="1585126236445" duration="2840000" />
+      <workItem from="1585137708911" duration="1030000" />
+      <workItem from="1585657804603" duration="1228000" />
+      <workItem from="1585902347120" duration="478000" />
+      <workItem from="1585968599843" duration="47000" />
+      <workItem from="1585968668611" duration="731000" />
+      <workItem from="1585970596030" duration="648000" />
+      <workItem from="1585981089729" duration="17000" />
+      <workItem from="1585987369380" duration="20000" />
+      <workItem from="1585991749612" duration="2945000" />
+      <workItem from="1586069658161" duration="9439000" />
+      <workItem from="1586485945714" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MTypeServiceTest_selectByPrimaryKey - 2019.10.16 at 10h 38m 33s.xml">
+      <configuration name="MTypeServiceTest.selectByPrimaryKey" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_insert - 2019.10.15 at 11h 01m 00s.xml">
+      <configuration name="SongerServiceTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_insert - 2019.10.15 at 11h 01m 17s.xml">
+      <configuration name="SongerServiceTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_insert - 2019.10.15 at 11h 01m 46s.xml">
+      <configuration name="SongerServiceTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectByCondition - 2019.10.15 at 11h 03m 30s.xml">
+      <configuration name="SongerServiceTest.selectByCondition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectByCondition - 2019.10.15 at 11h 03m 56s.xml">
+      <configuration name="SongerServiceTest.selectByCondition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectByCondition - 2019.10.15 at 11h 04m 32s.xml">
+      <configuration name="SongerServiceTest.selectByCondition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectSonger - 2019.10.25 at 10h 59m 15s.xml">
+      <configuration name="SongerServiceTest.selectSonger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectSonger - 2019.10.25 at 11h 01m 16s.xml">
+      <configuration name="SongerServiceTest.selectSonger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongerServiceTest_selectSonger - 2019.10.25 at 11h 02m 09s.xml">
+      <configuration name="SongerServiceTest.selectSonger" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219521000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1340" height="730" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.22230889" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.5024958" side_tool="true" weight="0.25117004" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24459234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49750414" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.8801997" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3294509" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3288364" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.359401" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24960998" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32969153" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3299532" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22932917" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2762063" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58069885" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.8801997" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3288364" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.359401" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24960998" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32969153" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3299532" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/resources/mapper/MtypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/AlbumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/AlbumQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/MtypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/MtypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/LoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/LoginQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/SongerQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/resources/mapper/LoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/model/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/query/SongQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/SongService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/service/impl/SongServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/dao/SongMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_core/src/main/java/cn/tx/model/Songer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/SongerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/interceptor/LoginInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="26" column="204" selection-start-line="26" selection-start-column="204" selection-end-line="26" selection-end-column="204" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tx_xiami.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/songer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2100">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#sup#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/java/cn/tx/controller/SongController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_portal/src/main/webapp/WEB-INF/page/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/hami_portal/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/songer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="179" column="48" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/updateSong.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/updateSonger.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addAlbum.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addSong.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/addSonger.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="95" column="48" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/album.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="348" column="48" selection-start-line="348" selection-start-column="48" selection-end-line="348" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/mtype.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="220" column="6" lean-forward="true" selection-start-line="220" selection-start-column="6" selection-end-line="220" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hami_console/src/main/webapp/WEB-INF/page/song.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2009">
+          <caret line="214" column="6" selection-start-line="214" selection-start-column="6" selection-end-line="214" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hami_console:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hami_portal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
