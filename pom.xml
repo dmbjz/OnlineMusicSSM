@@ -192,7 +192,7 @@
         <mysql.version>5.1.6</mysql.version>
         <mybatis.version>3.4.5</mybatis.version>
         <aspectj.version>1.6.8</aspectj.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <servlet.version>2.5</servlet.version>
         <jsp.version>2.0</jsp.version>
         <jstl.version>1.2</jstl.version>
